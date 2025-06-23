@@ -1,0 +1,43 @@
+🎮 GDD — Simulador de Bolsa de Valores Inteligente
+🔷 1. Tema do Projeto e Justificativa
+Tema:
+Um simulador interativo de bolsa de valores onde o jogador pode comprar e vender ações, analisar tendências de mercado e tentar maximizar seu lucro com base em decisões estratégicas.
+
+Justificativa:
+A bolsa de valores é um ambiente real que exige decisão, análise, previsão e otimização — todos relacionados diretamente aos algoritmos e estruturas de dados estudados na disciplina. Além disso, o tema é interessante,
+educativo e ideal para incorporar grafos, busca, programação dinâmica, compressão e complexidade computacional, de maneira prática e aplicada.
+
+🔷 2. Visão Geral das Funcionalidades
+Funcionalidade	Descrição resumida
+📈 Visualização de mercado	Exibição de ações com preços variando ao longo do tempo.
+💸 Compra e venda de ações	Jogador pode negociar ações com base no saldo e na previsão de lucro.
+🧠 Simulação de tendências	Análise simples de gráficos e projeções futuras.
+🧾 Carteira do jogador	Mostra as ações compradas, lucro/prejuízo atual e histórico.
+🎯 Desafios estratégicos	Missões como “lucre X em 10 dias” ou “sobreviva à crise”.
+🧮 Assistente de decisões (IA opcional)	Sugestões baseadas em algoritmos gulosos ou dinâmicos.
+
+🔷 3. Integração com a Ementa
+Tópico da Ementa	Implementação no Jogo
+✅ Teoria da Complexidade	Problema da maximização de lucro com restrições de tempo e número de transações (ex: problema NP-difícil da bolsa).
+🔍 Algoritmos de Busca	Busca binária e hashing para localizar ações rapidamente. Busca em texto para notícias de mercado.
+🗜️ Compressão de Dados	Compressão dos históricos com RLE ou Huffman para salvar espaço.
+🔗 Grafos	Representação de relação entre empresas (grafo de setores) e fluxo de influências econômicas.
+⚙️ Algoritmos Gulosos	Compra de ações com base no maior crescimento recente, seleção rápida de portfólio.
+🔁 Programação Dinâmica	Algoritmo de maximização de lucro com no máximo K transações (problema clássico da bolsa).
+
+🔷 4. Tecnologias Escolhidas
+Python
+Linguagem	Python 3
+GUI (opcional)	tkinter ou PyQt5
+Gráficos	matplotlib ou plotly
+Banco de Dados	sqlite3 ou JSON
+Grafos	networkx
+Compressão	zlib, gzip ou implementação manual
+Programação dinâmica	Implementada em funções
+
+
+🔷 5. Breve Apresentação Oral
+Olá pessoal! Nosso projeto é um Simulador de Bolsa de Valores, onde o jogador assume o papel de investidor e precisa tomar decisões estratégicas para lucrar em um mercado que muda constantemente.
+
+O mais interessante é que o jogo foi projetado para aplicar diretamente os conceitos da disciplina, como algoritmos de busca para localizar ações, compressão para salvar dados de forma eficiente, 
+programação dinâmica para calcular o melhor lucro possível, e grafos para modelar a relação entre empresas do mercado.
